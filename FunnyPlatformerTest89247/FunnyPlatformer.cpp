@@ -35,14 +35,11 @@ Simple MACRO log system
 #endif // !SYSLOG_HPP
 
 #ifndef FLEXRECT_HPP
+#define FLEXREC_HPP
 /*
 An attempt at writing a flex rect system for the ui stuff
 https://github.com/nezvers/GameSystemsInC/blob/master/FlexRect/flexrect.h
 */
-
-
-#include <raylib.h>
-
 class FlexRect {
 public:
 	FlexRect()
