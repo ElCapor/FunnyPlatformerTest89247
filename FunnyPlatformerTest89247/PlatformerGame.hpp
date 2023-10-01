@@ -8,9 +8,7 @@ USER GAME CODE
 #include "raylib-assert.h"
 #include "GameScene.hpp"
 
-/*
-TODO : IMPLEMENT SCENE MANAGER INSIDE THE BASE GAME CLASS , THE USER SHOULD ONLY NEED TO LOAD HIS OWN SCENE
-*/
+
 class PlatformerGame : Game
 {
 public:
