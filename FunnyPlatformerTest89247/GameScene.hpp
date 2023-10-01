@@ -10,7 +10,6 @@ public:
 	{
 		//InitMainMenu(); -> this will be moved to MainMenuScene
 
-
 	}
 	void OnUpdate() override
 	{

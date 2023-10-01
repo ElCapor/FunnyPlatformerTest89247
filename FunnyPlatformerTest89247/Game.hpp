@@ -8,7 +8,6 @@ Rewrite of the Game System attempt n°2
 #include "SceneManager.hpp"
 // Abstract game class
 class Game {
-	std::unique_ptr<SceneManager> m_SceneManager;
 public:
 	int m_Width;
 	int m_Height;
@@ -69,5 +68,7 @@ public:
 		// we can now safely assume that the scene exists
 		m_SceneManager->m_CurrentScene->OnEnter();
 	}
+
+	std::unique_ptr<SceneManager> m_SceneManager;
 };
 #endif // !GAME_HPP
