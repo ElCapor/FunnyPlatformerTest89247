@@ -13,6 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core">
+      <UniqueIdentifier>{340e0dca-03fc-4a08-aa60-2987de6e6fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core\GUI">
+      <UniqueIdentifier>{52b7f599-c9dc-4a12-bbab-f5b499ea1154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core\Sys">
+      <UniqueIdentifier>{43d0e8c5-4126-4b9e-bfe7-15c1242f563e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core\Game">
+      <UniqueIdentifier>{a045c819-6a62-4a5a-a6df-400fa7b71f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\User">
+      <UniqueIdentifier>{474a933c-da2e-4ff3-8534-b3c8277f3543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\User\Scenes">
+      <UniqueIdentifier>{8de327a7-1561-4989-99ec-a56501949971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\User\GUI">
+      <UniqueIdentifier>{869eb1e9-a5d8-476c-9c86-3b6c9f9e5e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core\Raylib">
+      <UniqueIdentifier>{4134c30a-d4b1-48c2-8c04-96bdb31dad9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\User\Game">
+      <UniqueIdentifier>{d3dfd43d-2b9b-4faa-99a8-2a27beb858ae}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FunnyPlatformer.cpp">
@@ -23,11 +50,38 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="raylib-assert.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="FlexRect.hpp">
+      <Filter>Fichiers d%27en-tête\Core\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SysLog.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Sys</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.hpp">
+      <Filter>Fichiers d%27en-tête\User\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="cyber.h">
+      <Filter>Fichiers d%27en-tête\Core\Raylib</Filter>
     </ClInclude>
     <ClInclude Include="raygui.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\Core\Raylib</Filter>
+    </ClInclude>
+    <ClInclude Include="raylib-assert.h">
+      <Filter>Fichiers d%27en-tête\Core\Raylib</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.hpp">
+      <Filter>Fichiers d%27en-tête\User\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformerGame.hpp">
+      <Filter>Fichiers d%27en-tête\User\Game</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

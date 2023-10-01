@@ -133,8 +133,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="cyber.h" />
+    <ClInclude Include="FlexRect.hpp" />
+    <ClInclude Include="Game.hpp" />
+    <ClInclude Include="GameScene.hpp" />
+    <ClInclude Include="MainMenu.hpp" />
+    <ClInclude Include="PlatformerGame.hpp" />
     <ClInclude Include="raygui.h" />
     <ClInclude Include="raylib-assert.h" />
+    <ClInclude Include="Scene.hpp" />
+    <ClInclude Include="SceneManager.hpp" />
+    <ClInclude Include="SysLog.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
