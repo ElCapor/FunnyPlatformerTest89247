@@ -133,6 +133,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AnimationClip.h" />
+    <ClInclude Include="AnimationController.hpp" />
+    <ClInclude Include="AnimationTestScene.hpp" />
     <ClInclude Include="cyber.h" />
     <ClInclude Include="FlexRect.hpp" />
     <ClInclude Include="Game.hpp" />
