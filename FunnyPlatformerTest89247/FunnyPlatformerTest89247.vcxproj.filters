@@ -40,6 +40,9 @@
     <Filter Include="Fichiers d%27en-tête\User\Game">
       <UniqueIdentifier>{d3dfd43d-2b9b-4faa-99a8-2a27beb858ae}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core\Animation">
+      <UniqueIdentifier>{026a35f7-346f-4b53-9624-4293e6c3ca83}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FunnyPlatformer.cpp">
@@ -82,6 +85,15 @@
     </ClInclude>
     <ClInclude Include="PlatformerGame.hpp">
       <Filter>Fichiers d%27en-tête\User\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationClip.h">
+      <Filter>Fichiers d%27en-tête\Core\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationController.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationTestScene.hpp">
+      <Filter>Fichiers d%27en-tête\User\Scenes</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
