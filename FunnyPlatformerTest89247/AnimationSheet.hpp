@@ -5,6 +5,12 @@
 #include "SysLog.hpp"
 #include <filesystem>
 
+/*
+Simple Implementation of a format to handle animation sheets
+
+TODO : Add more error catching stuff , Refactor it (it's really ugly rn)
+
+*/
 class AnimationSheet {
 public:
 	pugi::xml_document doc; // the xml that represents this
