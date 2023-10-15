@@ -1,5 +1,6 @@
 #ifndef ANIMATIONTESTSCENE_HPP
 #define ANIMATIONTESTSCENE_HPP
+#define ANIMATION_VERBOSE
 /*
 A simple demo scene to showcase the Animation System
 
@@ -40,7 +41,7 @@ public:
 	{
 		//InitMainMenu(); -> this will be moved to MainMenuScene
 		this->sheet.FromXml("assets/walk.xml");
-		garfield = AnimationClip("idle", LoadGarfieldTextures());
+		garfield = AnimationClip("idle", this->sheet.GetTextures());
 		controller.AddClip(garfield);
 		controller.SetCurrentClip("idle");
 		controller.Play();

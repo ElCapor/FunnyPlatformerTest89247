@@ -71,7 +71,11 @@ public:
 			if (!isPaused && isPLaying)
 			{
 				StepFrameCounterAndFrameIndex();
+#ifdef ANIMATION_VERBOSE
 				INFO("STEP : %f , %d", frameCounter, cFrameIndex);
+#endif // ANIMATION_VERBOSE
+
+				
 			}
 		}
 	}

@@ -37,20 +37,26 @@ public:
 		return true;
 	}
 
-	std::vector<Texture2D> GetTextures(pugi::xml_node rootNode)
+	std::vector<Texture2D> GetTextures()
 	{
+		INFO("GetTextures");
 		std::vector<Texture2D> result;
-		
+		pugi::xml_node rootNode = doc.first_child();
 		for (pugi::xml_node child : rootNode.children())
 		{
+			INFO("Hello");
 			int x = child.attribute("x").as_int();
 			int y = child.attribute("y").as_int();
 			int width = child.attribute("width").as_int();
 			int height = child.attribute("height").as_int();
 
-			DrawTexturePro()
-
+			Image img = LoadImageFromTexture(self);
+			Rectangle cropRect = { x, y, width, height }; // Replace x, y, width, and height with your desired values.
+			ImageCrop(&img, cropRect);
+			Texture2D croppedTexture = LoadTextureFromImage(img);
+			result.push_back(croppedTexture);
 		}
+		return result;
 	}
 	void FromXml(std::string filePath)
 	{
@@ -62,6 +68,7 @@ public:
 		}
 		if (CheckRootNode(filePath, temp.first_child()))
 		{
+			doc.load_file(filePath.c_str());
 			return;
 		}
 
