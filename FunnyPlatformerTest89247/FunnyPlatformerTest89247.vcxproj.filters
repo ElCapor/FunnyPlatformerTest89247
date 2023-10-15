@@ -110,5 +110,8 @@
     <ClInclude Include="AnimationSheet.hpp">
       <Filter>Fichiers d%27en-tête\Core\Animation</Filter>
     </ClInclude>
+    <ClInclude Include="PlayerFunnyScene.hpp">
+      <Filter>Fichiers d%27en-tête\User\Scenes</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -146,6 +146,7 @@
     <ClInclude Include="MainMenu.hpp" />
     <ClInclude Include="PlatformerGame.hpp" />
     <ClInclude Include="PlayerEntity.hpp" />
+    <ClInclude Include="PlayerFunnyScene.hpp" />
     <ClInclude Include="raygui.h" />
     <ClInclude Include="raylib-assert.h" />
     <ClInclude Include="Scene.hpp" />

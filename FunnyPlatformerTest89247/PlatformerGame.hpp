@@ -8,7 +8,7 @@ USER GAME CODE
 #include "raylib-assert.h"
 #include "GameScene.hpp"
 #include "AnimationTestScene.hpp"
-
+#include "PlayerFunnyScene.hpp"
 class PlatformerGame : Game
 {
 public:
@@ -19,7 +19,7 @@ public:
 		INFO("Starting...");
 		// base game stuff
 		Game::OnLoad();
-		MakeDefaultScene<AnimationTestScene>("game");
+		MakeDefaultScene<PlayerFunnyScene>("game");
 	}
 
 	void OnExit() override

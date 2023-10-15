@@ -40,14 +40,21 @@ public:
 
 	void SetCurrentClip(std::string name)
 	{
-		for (auto clip : clips)
+		// lil optimization i forgot earlier
+		if (currentClip.name != name)
 		{
-			if (clip.name == name)
+			for (auto clip : clips)
 			{
-				this->currentClip = clip;
-				INFO("Found clip");
+				if (clip.name == name)
+				{
+					this->currentClip = clip;
+#ifdef ANIMATION_VERBOSE
+					INFO("Found clip");
+#endif
+				}
 			}
 		}
+		
 	}
 
 	void SetAnimSpeed(int speedFactor)
