@@ -107,5 +107,8 @@
     <ClInclude Include="PlayerEntity.hpp">
       <Filter>Fichiers d%27en-tête\User\Entities</Filter>
     </ClInclude>
+    <ClInclude Include="AnimationSheet.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Animation</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

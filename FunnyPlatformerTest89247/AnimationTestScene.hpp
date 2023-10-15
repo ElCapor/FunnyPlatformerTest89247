@@ -12,7 +12,7 @@ Make a ui with raygui & ability to test other animations
 #include "Scene.hpp"
 #include "SysLog.hpp"
 #include "AnimationController.hpp"
-
+#include "AnimationSheet.hpp"
 
 std::vector<Texture2D> LoadGarfieldTextures()
 {
@@ -32,11 +32,14 @@ class AnimationTestScene : public Scene
 	AnimationController controller;
 	AnimationClip garfield;
 	int speedFactor = 5;
+
+	AnimationSheet sheet;
 public:
 	// Hérité via Scene
 	void OnEnter() override
 	{
 		//InitMainMenu(); -> this will be moved to MainMenuScene
+		this->sheet.FromXml("assets/walk.xml");
 		garfield = AnimationClip("idle", LoadGarfieldTextures());
 		controller.AddClip(garfield);
 		controller.SetCurrentClip("idle");
