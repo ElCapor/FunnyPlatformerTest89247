@@ -1,3 +1,4 @@
+<!--Built by anim2xml - ElCapor 2022 - https://github.com/ElCapor/FunnyPlatformerTest89247 @ 10/15/2023 10:28 -->
 <AnimationSheet file="walk.png">
   <Frame id="0" x="0" y="0" width="64" height="64" />
   <Frame id="1" x="64" y="0" width="64" height="64" />

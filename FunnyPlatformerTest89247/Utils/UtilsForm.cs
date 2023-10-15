@@ -60,10 +60,11 @@ namespace Utils
                     this.materialMultiLineTextBox1.AppendText($"There is {frameCount} frames \n");
 
                     XmlDocument xmlDocument = new XmlDocument();
+                    XmlComment tradeMark = xmlDocument.CreateComment($"Built by anim2xml - ElCapor 2022 - https://github.com/ElCapor/FunnyPlatformerTest89247 @ {DateTime.Now.ToString("MM/dd/yyyy h:mm tt")}");
+                    xmlDocument.AppendChild(tradeMark);
                     XmlElement rootElement = xmlDocument.CreateElement("AnimationSheet");
                     rootElement.SetAttribute("file", Path.GetFileName(filePath));
                     xmlDocument.AppendChild(rootElement);
-
                     for (int frameId = 0; frameId < frameCount; frameId++)
                     {
                         XmlElement frameElement = xmlDocument.CreateElement("Frame");
