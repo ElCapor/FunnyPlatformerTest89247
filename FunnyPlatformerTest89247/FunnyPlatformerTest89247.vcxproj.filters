@@ -43,6 +43,12 @@
     <Filter Include="Fichiers d%27en-tête\Core\Animation">
       <UniqueIdentifier>{026a35f7-346f-4b53-9624-4293e6c3ca83}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core\Entity">
+      <UniqueIdentifier>{49b025a3-faa1-4088-80e4-613986d8c798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\User\Entities">
+      <UniqueIdentifier>{d00510f2-8496-4d78-a388-bcec07374920}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FunnyPlatformer.cpp">
@@ -94,6 +100,12 @@
     </ClInclude>
     <ClInclude Include="AnimationTestScene.hpp">
       <Filter>Fichiers d%27en-tête\User\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerEntity.hpp">
+      <Filter>Fichiers d%27en-tête\User\Entities</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

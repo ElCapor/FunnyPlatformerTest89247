@@ -137,11 +137,13 @@
     <ClInclude Include="AnimationController.hpp" />
     <ClInclude Include="AnimationTestScene.hpp" />
     <ClInclude Include="cyber.h" />
+    <ClInclude Include="Entity.hpp" />
     <ClInclude Include="FlexRect.hpp" />
     <ClInclude Include="Game.hpp" />
     <ClInclude Include="GameScene.hpp" />
     <ClInclude Include="MainMenu.hpp" />
     <ClInclude Include="PlatformerGame.hpp" />
+    <ClInclude Include="PlayerEntity.hpp" />
     <ClInclude Include="raygui.h" />
     <ClInclude Include="raylib-assert.h" />
     <ClInclude Include="Scene.hpp" />

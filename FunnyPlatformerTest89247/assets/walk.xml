@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manually built animation -->
+<AnimationSheet>
+	<Frame class="walk" id="1" x=0"></Frame>
+</AnimationSheet>
