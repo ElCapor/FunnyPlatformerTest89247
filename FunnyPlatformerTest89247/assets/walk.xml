@@ -1,5 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Manually built animation -->
-<AnimationSheet>
-	<Frame class="walk" id="1" x=0"></Frame>
+<AnimationSheet file="walk.png">
+  <Frame id="0" x="0" y="0" width="64" height="64" />
+  <Frame id="1" x="64" y="0" width="64" height="64" />
+  <Frame id="2" x="128" y="0" width="64" height="64" />
+  <Frame id="3" x="192" y="0" width="64" height="64" />
+  <Frame id="4" x="256" y="0" width="64" height="64" />
+  <Frame id="5" x="320" y="0" width="64" height="64" />
+  <Frame id="6" x="384" y="0" width="64" height="64" />
+  <Frame id="7" x="448" y="0" width="64" height="64" />
 </AnimationSheet>
