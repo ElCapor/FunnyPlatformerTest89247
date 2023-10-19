@@ -1,0 +1,48 @@
+{
+    "version": "2.0.0",
+    "windows": {
+        "options": {
+            "shell": {
+                "executable": "cmd.exe",
+                "args": [
+                    "/K",
+                    "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\VsDevCmd.bat\"",
+                    "&&"
+                ]
+            }
+        }
+    },
+    "tasks": [
+        {
+            "label": "Build (Debug x64)",
+            "type": "shell",
+            "command": "msbuild",
+            "args": [
+                "FunnyPlatformerTest89247.sln",
+                "/p:configuration=Debug;platform=x64"
+            ],
+            "problemMatcher": ["$msCompile"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+		{
+            "label": "Debug (x64)",
+            "type": "shell",
+            "command": "cmd.exe",
+            "args": [
+                "/K",
+                "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Common7\\IDE\\devenv.exe\"",
+                "FunnyPlatformerTest89247.sln",
+                "/DebugExe",
+                "\"C:\\path\\to\\your\\executable.exe\"",
+                "/x64"
+            ],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        }
+    ]
+}
