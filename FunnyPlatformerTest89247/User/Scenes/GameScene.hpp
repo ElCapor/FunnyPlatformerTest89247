@@ -1,6 +1,6 @@
 #ifndef GAMESCENE_HPP
 #define GAMESCENE_HPP
-#include "Scene.hpp"
+#include <Core/Game/Scene.hpp>
 
 class GameScene : public Scene
 {

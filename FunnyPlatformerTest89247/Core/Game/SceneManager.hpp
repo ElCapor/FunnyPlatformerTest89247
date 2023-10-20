@@ -5,8 +5,8 @@
 Scene Manager rewrite attempt n°2
 
 */
-#include "Scene.hpp"
-#include "SysLog.hpp"
+#include <Core/Game/Scene.hpp>
+#include <Core/Sys/SysLog.hpp>
 #include <string>
 #include <map>
 #include <memory>

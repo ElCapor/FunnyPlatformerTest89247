@@ -8,8 +8,8 @@ ALL OF THIS NEEDS A REFACTORING AT SOME POINT
 HOWEVER EVERYTHING WILL BE SHOWN IN THE DOCS.
 */
 #include <raylib.h>
-#include "AnimationClip.h"
-#include "SysLog.hpp"
+#include <Core/Animation/AnimationClip.h>
+#include <Core/Sys/SysLog.hpp>
 class AnimationController {
 public:
 	float frameCounter; // counting frames

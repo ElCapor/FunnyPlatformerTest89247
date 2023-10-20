@@ -10,10 +10,10 @@ Press Key UP and Key DOWN to Increase/Decrease animation speed
 TODO:
 Make a ui with raygui & ability to test other animations
 */
-#include "Scene.hpp"
-#include "SysLog.hpp"
-#include "AnimationController.hpp"
-#include "AnimationSheet.hpp"
+#include <Core/Game/Scene.hpp>
+#include <Core/Sys/SysLog.hpp>
+#include <Core/Animation/AnimationController.hpp>
+#include <Core/Animation/AnimationSheet.hpp>
 
 std::vector<Texture2D> LoadGarfieldTextures()
 {
