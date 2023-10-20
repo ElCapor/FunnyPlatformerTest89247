@@ -3,11 +3,11 @@
 /*
 USER GAME CODE
 */
-#include "Game.hpp"
-#include "SceneManager.hpp"
-#include "raylib-assert.h"
-#include "GameScene.hpp"
-#include "AnimationTestScene.hpp"
+#include <Core/Game/Game.hpp>
+#include <Core/Game/SceneManager.hpp>
+#include <Core/Raylib/raylib-assert.h>
+#include <User/Scenes/GameScene.hpp>
+#include <User/Scenes/AnimationTestScene.hpp>
 
 class PlatformerGame : Game
 {

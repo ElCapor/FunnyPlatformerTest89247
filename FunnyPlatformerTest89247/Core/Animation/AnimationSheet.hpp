@@ -2,7 +2,7 @@
 #define ANIMATIONSHEET_HPP
 #include <pugixml.hpp>
 #include <raylib.h>
-#include "SysLog.hpp"
+#include <Core/Sys/SysLog.hpp>
 #include <filesystem>
 
 /*
