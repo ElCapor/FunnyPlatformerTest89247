@@ -4,12 +4,12 @@ MAP EDITOR REWRITE ATTEMPT n°89247
 
 */
 #pragma warning(disable:4996)
-#include "cyber.h"
+#include <Core/Raylib/cyber.h>
 
 #define RAYGUI_IMPLEMENTATION
 #include <raylib.h>
-#include "raylib-assert.h"
-#include "raygui.h"
+#include <Core/Raylib/raylib-assert.h>
+#include <Core/Raylib/raygui.h>
 
 #include <string>
 #include <ostream>
@@ -22,7 +22,7 @@ MAP EDITOR REWRITE ATTEMPT n°89247
 /*
 Custom Modules
 */
-#include "PlatformerGame.hpp"
+#include <User/Game/PlatformerGame.hpp>
 
 PlatformerGame g_Game;
 
