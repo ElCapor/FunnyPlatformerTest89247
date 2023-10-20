@@ -16,15 +16,6 @@
     <Filter Include="Fichiers d%27en-tête\Core">
       <UniqueIdentifier>{340e0dca-03fc-4a08-aa60-2987de6e6fa9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Fichiers d%27en-tête\Core\GUI">
-      <UniqueIdentifier>{52b7f599-c9dc-4a12-bbab-f5b499ea1154}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers d%27en-tête\Core\Sys">
-      <UniqueIdentifier>{43d0e8c5-4126-4b9e-bfe7-15c1242f563e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers d%27en-tête\Core\Game">
-      <UniqueIdentifier>{a045c819-6a62-4a5a-a6df-400fa7b71f4f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Fichiers d%27en-tête\User">
       <UniqueIdentifier>{474a933c-da2e-4ff3-8534-b3c8277f3543}</UniqueIdentifier>
     </Filter>
@@ -34,84 +25,96 @@
     <Filter Include="Fichiers d%27en-tête\User\GUI">
       <UniqueIdentifier>{869eb1e9-a5d8-476c-9c86-3b6c9f9e5e9c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Fichiers d%27en-tête\Core\Raylib">
-      <UniqueIdentifier>{4134c30a-d4b1-48c2-8c04-96bdb31dad9c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Fichiers d%27en-tête\User\Game">
       <UniqueIdentifier>{d3dfd43d-2b9b-4faa-99a8-2a27beb858ae}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers d%27en-tête\Core\Animation">
-      <UniqueIdentifier>{026a35f7-346f-4b53-9624-4293e6c3ca83}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers d%27en-tête\Core\Entity">
-      <UniqueIdentifier>{49b025a3-faa1-4088-80e4-613986d8c798}</UniqueIdentifier>
     </Filter>
     <Filter Include="Fichiers d%27en-tête\User\Entities">
       <UniqueIdentifier>{d00510f2-8496-4d78-a388-bcec07374920}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="FunnyPlatformer.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
+    <Filter Include="Fichiers d%27en-tête\Core\Animation">
+      <UniqueIdentifier>{e4eed032-dd6a-4838-b4ee-f9c68c6e09de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core\GUI">
+      <UniqueIdentifier>{248246f6-40b9-47bb-9e09-6f18f31be654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core\Entity">
+      <UniqueIdentifier>{8f6af60a-888e-45b1-a4bd-f4bfd0f65b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core\Raylib">
+      <UniqueIdentifier>{6d980364-4289-43a1-a3e3-3a29cd085dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core\Game">
+      <UniqueIdentifier>{3ad3e2cf-3652-4ff1-aa4a-de38ac85fd99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core\Sys">
+      <UniqueIdentifier>{da37a22f-f09c-4ec1-890b-79a77d4fbbb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\User">
+      <UniqueIdentifier>{6c5a9275-6b21-4364-bc38-b3a534746ba2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FlexRect.hpp">
+    <ClInclude Include="Core\Animation\AnimationClip.h">
+      <Filter>Fichiers d%27en-tête\Core\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Animation\AnimationController.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Animation\AnimationSheet.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\GUI\FlexRect.hpp">
       <Filter>Fichiers d%27en-tête\Core\GUI</Filter>
     </ClInclude>
-    <ClInclude Include="SysLog.hpp">
-      <Filter>Fichiers d%27en-tête\Core\Sys</Filter>
-    </ClInclude>
-    <ClInclude Include="Scene.hpp">
-      <Filter>Fichiers d%27en-tête\Core\Game</Filter>
-    </ClInclude>
-    <ClInclude Include="GameScene.hpp">
-      <Filter>Fichiers d%27en-tête\User\Scenes</Filter>
-    </ClInclude>
-    <ClInclude Include="cyber.h">
+    <ClInclude Include="Core\Raylib\cyber.h">
       <Filter>Fichiers d%27en-tête\Core\Raylib</Filter>
     </ClInclude>
-    <ClInclude Include="raygui.h">
+    <ClInclude Include="Core\Raylib\raygui.h">
       <Filter>Fichiers d%27en-tête\Core\Raylib</Filter>
     </ClInclude>
-    <ClInclude Include="raylib-assert.h">
+    <ClInclude Include="Core\Raylib\raylib-assert.h">
       <Filter>Fichiers d%27en-tête\Core\Raylib</Filter>
     </ClInclude>
-    <ClInclude Include="MainMenu.hpp">
-      <Filter>Fichiers d%27en-tête\User\GUI</Filter>
-    </ClInclude>
-    <ClInclude Include="SceneManager.hpp">
-      <Filter>Fichiers d%27en-tête\Core\Game</Filter>
-    </ClInclude>
-    <ClInclude Include="Game.hpp">
-      <Filter>Fichiers d%27en-tête\Core\Game</Filter>
-    </ClInclude>
-    <ClInclude Include="PlatformerGame.hpp">
-      <Filter>Fichiers d%27en-tête\User\Game</Filter>
-    </ClInclude>
-    <ClInclude Include="AnimationClip.h">
-      <Filter>Fichiers d%27en-tête\Core\Animation</Filter>
-    </ClInclude>
-    <ClInclude Include="AnimationController.hpp">
-      <Filter>Fichiers d%27en-tête\Core\Animation</Filter>
-    </ClInclude>
-    <ClInclude Include="AnimationTestScene.hpp">
-      <Filter>Fichiers d%27en-tête\User\Scenes</Filter>
-    </ClInclude>
-    <ClInclude Include="Entity.hpp">
+    <ClInclude Include="Core\Entity\Entity.hpp">
       <Filter>Fichiers d%27en-tête\Core\Entity</Filter>
     </ClInclude>
-    <ClInclude Include="PlayerEntity.hpp">
+    <ClInclude Include="Core\Game\Game.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Game\Scene.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Game\SceneManager.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Sys\SysLog.hpp">
+      <Filter>Fichiers d%27en-tête\Core\Sys</Filter>
+    </ClInclude>
+    <ClInclude Include="User\Entities\PlayerEntity.hpp">
       <Filter>Fichiers d%27en-tête\User\Entities</Filter>
     </ClInclude>
-    <ClInclude Include="AnimationSheet.hpp">
-      <Filter>Fichiers d%27en-tête\Core\Animation</Filter>
+    <ClInclude Include="User\Game\PlatformerGame.hpp">
+      <Filter>Fichiers d%27en-tête\User\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="User\GUI\MainMenu.hpp">
+      <Filter>Fichiers d%27en-tête\User\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="User\Scenes\AnimationTestScene.hpp">
+      <Filter>Fichiers d%27en-tête\User\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="User\Scenes\GameScene.hpp">
+      <Filter>Fichiers d%27en-tête\User\Scenes</Filter>
     </ClInclude>
     <ClInclude Include="PlayerFunnyScene.hpp">
       <Filter>Fichiers d%27en-tête\User\Scenes</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="User\FunnyPlatformer.cpp">
+      <Filter>Fichiers sources\User</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

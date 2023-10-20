@@ -128,30 +128,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FunnyPlatformer.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AnimationClip.h" />
-    <ClInclude Include="AnimationController.hpp" />
-    <ClInclude Include="AnimationSheet.hpp" />
-    <ClInclude Include="AnimationTestScene.hpp" />
-    <ClInclude Include="cyber.h" />
-    <ClInclude Include="Entity.hpp" />
-    <ClInclude Include="FlexRect.hpp" />
-    <ClInclude Include="Game.hpp" />
-    <ClInclude Include="GameScene.hpp" />
-    <ClInclude Include="MainMenu.hpp" />
-    <ClInclude Include="PlatformerGame.hpp" />
-    <ClInclude Include="PlayerEntity.hpp" />
-    <ClInclude Include="PlayerFunnyScene.hpp" />
-    <ClInclude Include="raygui.h" />
-    <ClInclude Include="raylib-assert.h" />
-    <ClInclude Include="Scene.hpp" />
-    <ClInclude Include="SceneManager.hpp" />
-    <ClInclude Include="SysLog.hpp" />
+    <ClInclude Include="Core\Animation\AnimationClip.h" />
+    <ClInclude Include="Core\Animation\AnimationController.hpp" />
+    <ClInclude Include="Core\Animation\AnimationSheet.hpp" />
+    <ClInclude Include="Core\Entity\Entity.hpp" />
+    <ClInclude Include="Core\Game\Game.hpp" />
+    <ClInclude Include="Core\Game\Scene.hpp" />
+    <ClInclude Include="Core\Game\SceneManager.hpp" />
+    <ClInclude Include="Core\GUI\FlexRect.hpp" />
+    <ClInclude Include="Core\Raylib\cyber.h" />
+    <ClInclude Include="Core\Raylib\raygui.h" />
+    <ClInclude Include="Core\Raylib\raylib-assert.h" />
+    <ClInclude Include="Core\Sys\SysLog.hpp" />
+    <ClInclude Include="User\Entities\PlayerEntity.hpp" />
+    <ClInclude Include="User\Game\PlatformerGame.hpp" />
+    <ClInclude Include="User\GUI\MainMenu.hpp" />
+    <ClInclude Include="User\Scenes\AnimationTestScene.hpp" />
+    <ClInclude Include="User\Scenes\GameScene.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="User\FunnyPlatformer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
