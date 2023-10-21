@@ -1,6 +1,6 @@
 /*
 
-MAP EDITOR REWRITE ATTEMPT n°89247
+MAP EDITOR REWRITE ATTEMPT nï¿½89247
 
 */
 #pragma warning(disable:4996)

@@ -137,7 +137,7 @@
     <ClInclude Include="Core\Animation\AnimationClip.h" />
     <ClInclude Include="Core\Animation\AnimationController.hpp" />
     <ClInclude Include="Core\Animation\AnimationSheet.hpp" />
-    <ClInclude Include="Core\Entity\Entity.hpp" />
+    <ClInclude Include="Core\ECS\ecs.h" />
     <ClInclude Include="Core\Game\Game.hpp" />
     <ClInclude Include="Core\Game\Scene.hpp" />
     <ClInclude Include="Core\Game\SceneManager.hpp" />
@@ -146,11 +146,12 @@
     <ClInclude Include="Core\Raylib\raygui.h" />
     <ClInclude Include="Core\Raylib\raylib-assert.h" />
     <ClInclude Include="Core\Sys\SysLog.hpp" />
-    <ClInclude Include="User\Entities\PlayerEntity.hpp" />
+    <ClInclude Include="User\ECS\AnimatedComponent.hpp"/>
     <ClInclude Include="User\Game\PlatformerGame.hpp" />
     <ClInclude Include="User\GUI\MainMenu.hpp" />
     <ClInclude Include="User\Scenes\AnimationTestScene.hpp" />
     <ClInclude Include="User\Scenes\GameScene.hpp" />
+    <ClInclude Include="User\Scenes\ECSTestScene.hpp"/>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="User\FunnyPlatformer.cpp" />
